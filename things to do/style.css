@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second{
+    
+    border: 1px solid rgb(145, 135, 135);
+    width: 223px;
+    padding: 9.5px;
+}
+.second:hover{
+    border: 2px solid black;
+}
+.input{
+    border-color: white;
+    border-style: none;
+   
+}
+.input:focus{
+    border-color: white;
+    outline: none;
+}
+.form{
+    border: 1px solid rgb(145, 135, 135); ;
+    padding: 10px;
+    width: fit-content;
+    background-color: white;
+}
+.form:hover{
+   border: 2px solid black;
+}
+.third{
+    display: flex;
+    
+}
+.btn{
+    margin-left: 3px;
+    width: 57px;
+    background-color: antiquewhite;
+}
+.btn:hover{
+    background-color: rgb(21, 70, 219);
+    color: white;
+    cursor: pointer;
+
+}
+.del:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.del{
+    padding: 1px;
+    margin-left: 165px;
+     background-color: white;
+     height: 32px;
+}
+.fourth{
+     border: 1px solid rgb(145, 135, 135);
+    width: 218px;
+    padding: 12px;
+}
+.fourth:hover{
+    border: 2px solid black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: rgb(231, 232, 243);
+}
+h1,.second,.third,.fourth{
+    margin-bottom: 30px;
+}
+li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    width: 546px;
+     display: grid;
+  place-content: center; 
+  justify-items: center;
+  background-color: beige;
+}
+.second,.fourth{
+    background-color: rgb(231, 232, 243);
+}
