@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(245, 242, 242)
+}
+
+nav {
+    background-color: #197592;
+    padding: 1px;
+}
+.links{
+    text-align: left;
+    margin-top: -10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.portfolio{
+    font-size: 19px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+}
+h3{
+    font-size: 19px;
+}
+
+h2 {
+    font-size: 26px;
+    color:#197592 ;
+    
+    
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 200px;
+
+}
+.task{
+    border: black;
+    background-color: white;
+    margin-bottom: 12px;
+}
+.todo{
+    border: black;
+    background-color: white;
+}
+.expense{
+    border: black;
+    background-color: white;
+}
+footer {
+    background-color: #197592;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
